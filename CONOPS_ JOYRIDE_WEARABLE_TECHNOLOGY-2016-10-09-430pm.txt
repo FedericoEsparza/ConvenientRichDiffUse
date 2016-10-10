@@ -1,0 +1,180 @@
+CONCEPT OF OPERATIONS FOR JOYRIDE WEARABLE TECHNOLOGY
+
+
+Team A
+Jonathan Skarin
+Federico Esparza
+Calvin Leader
+Marcia Newman
+Joseph Stephenson
+
+
+ 
+      	
+Record of Reviews and Changes
+Change ID or CI #	Date
+Reviewed	Date Approved	Comment	Signature
+1	10/5/16	-	Begin from Template	
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+
+ 
+Table of Contents
+1.             	Scope	4
+1.1.   Identification	4
+1.2.   Document security	4
+1.3.   System security	4
+2.             	Analysis of the proposed system	4
+2.1.   Summary of advantages	4
+2.2.   Summary of disadvantages or limitations	5
+2.3.   Alternatives and trade-offs considered	5
+3.             	Concept for a new or modified system	5
+3.1.   Background, objectives, and scope	5
+3.2.   Operational policies and constraints	6
+3.3.   Technical Policies & Constraints	6
+3.4.   Description of system	6
+3.5.   Users or affected personnel	7
+3.6.   Support concept	7
+3.7.   Operational scenarios	8
+4.             	Summary of impacts	9
+4.1.   Operational impacts	9
+4.2.   Organizational Impacts	10
+4.3.   Impacts during development	10
+5.             	Notes	11
+6.             	Appendices	11
+
+
+
+ 
+1.             	Scope
+Note:  In this template there are references to certain ISP documents using the abbreviations AV, DIV, OV, and StdV, for All Viewpoint, Data and Information Viewpoint, Operational Viewpoint, and Standard Viewpoint.  Details on these documents and the concepts guiding their creation can be found in the Department of Defense Architecture Framework (DoDAF) v2.x.  If your project is required to generate ISP documents, the information in several parts of this ConOps corresponds to those documents.  In any case, if a corresponding ISP document exists, you can reference that document instead of re-creating the information in the ConOps.
+1.1.   Identification
+This document defines the Concept of Operations (CONOPs) for version 1.1 of the mobile application JoyRide ™ (JR) developed by TeamA. It is intended for use by TeamA and its business partners to detail the design considerations, interfaces etc. The purpose of this document is to outline the mission, vision, goals, and intended use of the system. This CONOPs document will also outline the potential risks and benefits of the system.
+This paragraph shall contain a full identification of the system to which this document applies, including, as applicable, identification number, title, abbreviation, version number, release number, purpose, intended users, environment depicted, and analytical findings, if applicable (AV-1), high-level graphical and textual description of operational concept (high-level organizations, missions, geographic configuration, connectivity, etc.) (OV-1).
+(NOTE:  For the sake of brevity, “system” can mean the high-level system, the Configuration Items (CI), and the interfaces that comprise the system.  When the situation dictates, the document developer shall differentiate within the text (by paragraph headings and numbering) between system, CI, and interface as applicable.  Additionally, some sections of this document may be provided by the customer or user.)
+1.2.   Document security
+Use of any portion(s) of this document to copy, translate, disassemble or decompile, or create or attempt to create by reverse engineering (or otherwise) the source code from the object code of TeamA products is expressly prohibited.
+1.3.   System security
+System security policy shall be in accordance with the Risk Management Framework (RMF) for DoD Information Technology IT directive.
+2.             	Analysis of the proposed system
+2.1.   Summary of advantages
+The JoyRide™ application will be capable of giving users an efficient and convenient way to find transportation in a matter of seconds. Since wearable technologies allow individuals to quickly and easily access information right from their wrist, they are able to have a more seamless experience with our application. Instead of users having to reach into their pocket or purse, they can more easily find and book rides to get where they need to go. Since most wearables also have GPS built-in, users will also be able to quickly see where they are and where they need to go when choosing a preferred driver. One of the main advantages that our wearable platform has is the ability to let users decide whom they would like to ride with. This customization will give users a more enjoyable experience and help avoid any awkward interactions with drivers they don’t know as well. In this way we will give our users not only an efficient and convenient solution, but one that they will actually enjoy using.
+This paragraph shall provide a qualitative and quantitative summary of the advantages to be obtained from the new or technically refreshed system.  This summary shall include new capabilities, enhanced capabilities, and improved performance as applicable.
+2.2.   Summary of disadvantages or limitations
+Some of the disadvantages that come with choosing a wearable platform for our application are related to the current state of wearables. Limitations such as battery life for these devices could leave our customers without enough to charge to actually use our application. With most wearables today only lasting around a day or two, individuals need to constantly remember to keep their devices charged in order to avoid losing connectivity. Another potential disadvantage is in the price of wearables. Many individuals would rather pay a premium price for a smartphone, but not so much for a wearable. This could severely restrict our market of users to a small subset of smartphone owners.
+This paragraph shall pro¬vide a qualitative and quantitative summary of disadvan¬tages or limitations of the new or technically refreshed system.  These disadvan¬tages and limitations shall include, as applicable, degraded or missing capabilities, degraded or less-than-desired performance, greater-than-desired use of computer hardware resources, undesirable operational impacts, conflicts with user assumptions, and other constraints.
+2.3.   Alternatives and trade-offs considered
+One major alternative or consideration that could be made for the proposed system is to forego the wearable platform as a way to allow our riders to interact with the application. However, as we look towards providing our customers with the most efficient and convenient mechanisms for transportation it only makes sense to use a piece of technology that allows our customers to quickly find and book drivers. We see the smartwatch and other forms of wearables as allowing individuals to quickly view and react to information quickly so that they can get on with their lives. We see this to be especially applicable when it comes to transportation, when most of the time individuals just want to get from point A to point B as quickly as possible.
+This paragraph shall identify and describe major alternatives considered, if any, to the system or its characteristics, the trade-offs among them, and rationale for the decisions reached.
+3.             	Concept for a new or modified system
+3.1.   Background, objectives, and scope
+
+Background: Wearable technologies are revolutionizing the way we live, work, and play. Calling a taxi or reserving a rental car while on the go can be a headache, but with our new smartwatch technology it will never easier than ever. JoyRide will provide users with the potential to create rider profiles that include musical preferences and favorite places. These profiles will be used to automate the reservation time for return car riders.
+
+Mission: We aim to be the new standard in mobile reservation technologies. We plan to maximize efficiency and convenience for people on-the-go through our combination of creative and masterful design of wearable technologies and information systems.
+Vision: Our vision is to revolutionize the mobile computing world as the go-to device for travel resources.
+
+Goals: The JoyRide system will provide car riders with exceptional customer service, memorable experiences with minimal response time. It will ensure 10-seconds or less reservation time with the opportunity to automate the reservation process using car rider profiles and reservation history.
+
+This paragraph shall describe the background, mission or objectives, and scope of the new or modified system.  It includes Program Management Decision (PMD) directives.
+3.2.   Operational policies and constraints
+The JoyRide Application will require the reservation process to be complete in 10 seconds or less. The application will allow the user to add preferences desired for making the reservation process as quick as possible. The JoyRide application will allow for easy expansion to the user preferences to allow for more accurate automated reservations. 
+This paragraph shall describe any operational policies and constraints that apply to the new or modified system.
+3.3.   Technical Policies & Constraints
+In order to utilize Bluetooth capabilities, JoyRide must adhere to the Bluetooth Special Interest Group (SIG) standard. The credit card authorization system must utilize the Secure Sockets Layer (SSL) for secure communication over the network. The JoyRide Reservation Notification System will utilize an in-house JSON-like notification message format for notifying drivers of incoming reservations. 
+
+(StdV-1)-extraction of external standards and policy constraints that apply to the system architecture. (e.g., AF, DoD, JTA, ANSI, IEEE, etc)
+3.4.   Description of system
+The JoyRide Application within the SmartWatch technology will be used to create reservations for car rides. The user will be given the opportunity to create profiles that contain data used to make the automated reservation process quicker. The ultimate goal for the application will be to allow the user to complete a reservation with one-click. The majority of the reservation process will be automated based on reservation history and user preferences. In order for the application to be functional, there are a multitude of components required. Bluetooth connectivity to a cellular will be required in order for the SmartWatch to connect to the internet. The JoyRide application will need secure connectivity to a secure database that will be used to store user information, preferences, and reservation history. Each driver for TeamA will require an internet capable device with the JoyRide Reservation Notification System (RNS) plug-in installed. The JoyRide RNS will notify the closest applicable driver of a reservation request with a minimum expected time of arrival. As far as performance capabilities, we aim for the user to be able to make a reservation within 10 seconds or less. The JoyRide RNS will be responsible for efficiently routing the reservation request to the closest available driver to minimize user wait time. The JoyRide system will ensure user personal information is stored in a secure environment and only accessed by authorized persons using a standardized security system.
+This paragraph shall provide a description of the new or modified system.  The description shall include, as applicable:
+·         The operational environment and its characteristics
+·         Major system components and the interconnections among these components. Provide a high-level system architecture diagram, operational nodes, activities performed at each node, connectivity’s & information flow between nodes, (OV-2) information exchanged between nodes and the relevant attributes of that exchange such as media, quality, quantity, and the level of interoperability required (OV-3).
+·         Interfaces to external systems or procedures
+·         Capabilities or functions of the new or modified system to include activities and relationships among activities, input and outputs, constraints (e.g. policy, guidance), and mechanisms that perform those activities.  In addition to showing mechanisms, overlays can show other pertinent information. (OV-5a, OV-5b).
+·         Charts and accompanying descriptions depicting inputs, outputs, data flow, and manual and automated processes sufficient to understand the new or modified system or situation from the user's point of view.  This section shall include the operational rule model, which describes operational activity sequence and timing that identifies the business rules that constrain the operation, the operational state transition description that identifies responses of a business process to events, and the operational event or trace description, which traces the actions in a scenario or critical sequence of events. (OV-6 (a, b, c)).       	
+·         Performance characteristics, such as speed, throughput, volume, and frequency
+·         Quality attributes, such as reliability, maintainability, availability, flexibility, portability, usability, efficiency
+·         Provisions for safety, security, privacy, and continuity of operations in emergencies
+·         Logical Data Model (DIV-2)-This will include documentation of the data requirements and structural business process rules of the operational viewpoint.
+·         Software impacted, such as Job Control Language (JCL), files, system software, etc.
+3.5.   Users or affected personnel
+For the purposes of this document, “users” are owners of our wearable devices who use them to order rides or make vehicle reservations and rentals with them. “Drivers” refers to company employees who use the software to prompt them to pick up users. “Support Agents" are those employees who assist users with technological and logistical issues encountered while using our products. In an ideal scenario a user will order a ride and the nearest available driver is immediately prompted to pick the person up. The driver meets the user at the determined location and drives them to their destination. Payment transactions occur when the trip is complete by deducting the fair from the user’s credit card or prepaid account on file. If either a user or a driver experience any issues with the software or logistics of the route, a support specialist will assist them via phone, text, or email.
+
+This paragraph shall describe the types of users of the new or modified system, including, as applicable, organizational structures, training and skills, responsibilities, and interactions with one another.  This section shall include a Command Relationships Chart detailing the command, control, and coordination relationships among organizations. (OV-4)
+3.6.   Support concept
+Support for system name is provided 24x7x365 for emergency issues. Emergencies are defined as any issues in which the safety of our customers or employees is compromised. This may include excessive waiting when they have ordered a ride.For any life threatening emergency the caller should first dial 911.
+For non-emergencies company name will reply within 3 business hours. Non-emergency issues can be called in or reported via email  at help@TeamA.com.
+This paragraph shall provide an overview of the support concept for the new or modified system, including, as applicable, support agencies; training; facilities; equipment; support software; repair or replacement criteria; maintenance levels and cycles; and storage, distribution, and supply methods; and needed customer involvement such as Joint Application Design (JAD) sessions, and testing.
+3.7.   Operational scenarios
+JoyRide will allow riders to configure their preferred riding experience using the application on their SmartWatch. For the purpose of this document, we will outline the operational scenarios associated with creating a rider profile and reserving a car ride. Other possible scenarios will including adding a JoyRide driver as a favorite and choosing that driver when reserving. 
+Creating a Rider Profile
+1.	The user opens the JoyRide Mobile Application within their SmartWatch. 
+2.	The user initiates a “New Rider Profile” operation.
+3.	The user is prompted to enter a variety of information:
+a.	Their preferred name.
+b.	Favorite locations (i.e. home, work, happy hour bar, etc). The user can also choose to add custom to/from locations for quick reservations.
+c.	Their riding style (i.e. work commute, bar hopping, errands, etc). Multi-selections are enabled.
+d.	Their preferred music taste. 
+e.	Their favorite style of car (coupe, sedan, compact, standard, etc).
+f.	Whether they are interested in small talk or silence.
+g.	Other optional data (i.e. favorite scents, colors, or food.)
+4.	The user is prompted to a SSL secure portion of the application to enter their preferred credit card payment method. 
+5.	The JoyRide application uses the credit card authorization system to verify valid credit card.
+6.	The user confirms their Rider Profile. 
+
+ 
+Figure 1 - Creating a Rider Profile
+Reserving a JoyRide
+1.	The user chooses a custom reservation to/from location.
+2.	The user confirms the payment method.
+3.	The closest applicable JoyRide driver receives the reservation request via the Reservation Notification System.
+4.	The driver customizes their vehicle with user music preferences based on the user profile.
+5.	The driver utilizes the vehicle GPS system to navigate to the location of the user.
+6.	The driver greets the user and based on rider profile settings, the driver makes conversation with the user. 
+7.	The driver proceeds to the destination. 
+8.	The driver reaches the appropriate destination.
+9.	The user’s credit card on file is charged at the end of the ride.
+
+ 
+Figure 2 – JoyRide Reservation
+
+This paragraph shall describe one or more operational scenarios that illustrate the role of the new or modified system, its interaction with users, its interface to other systems, and all states or modes identified for the system.  The scenarios shall include events, actions, stimuli, information, interactions, etc., as applicable.  Reference may be made to other media, such as videos, to provide part or all of this information.
+4.             	Summary of impacts
+4.1.   Operational impacts
+This paragraph shall describe antici¬pated operational impacts on the user, acquirer, developer, and sup¬port agencies.  These impacts may include changes in interfaces with computer operating centers; changes in procedures; use of new data sources; changes in quantity, type, and timing of data to be input to the system; changes in data retention requirements; and new modes of operation based on peacetime, alert, wartime, or emergency conditions.
+
+There are a number of operational impacts on the user that need to be fully understood. First of all, the user must connect the smartwatch to a cellular device via bluetooth. This is imperative, as the only wireless radio in the smartwatch is a bluetooth radio. Through this bluetooth interface, the smartwatch will be able to utilize the wireless connectivity to the internet that the cellular device provides. 
+To ensure compatibility, the smartwatch will only support operation with the following operating systems: iOS, Android, and Windows 10. This will levy an operational impact on users, as they will need to have a mobile phone that runs on one of these operating systems. Additionally, the smartwatch will only support wireless connectivity via Bluetooth 4.0 and higher. This is required due to a number of security impacts, as well a features that the smartwatch intends to levy (including Internet of Things [IoT] features).  
+
+The user will be required to link a credit card to the app, so that payment can be guaranteed and automated.
+4.2.   Organizational Impacts
+This paragraph shall describe anticipated organizational impacts on the user, acquirer, developer, and support agencies.  These impacts may include modification of responsibilities; addition or elimination of responsibilities or positions; need for training or retraining; and changes in number, skill levels, position identifiers, or location of personnel in various modes of operation.
+As smartwatches are a relatively new form of technology, training will be paramount for the user community. Smartphone apps will be deployed for the operating systems described above, which will include setup, tutorials, and training. There will additionally be tips for the user, randomly describing certain features that they may not know about. 
+
+Acquirers and resellers will also undergo training, to ensure they have adequate knowledge and resources for demonstrating the technology, and improving sales. This will include demonstrations at certain venues where the technology can be fully demonstrated. Restaurants are an example of where this could be used, allowing for fast notification to valet drivers, when finished with their meal and ready to pick up their vehicle.
+
+Of course, JoyRide drivers will need to undergo training, to ensure they can operate the driver side of the system. Additionally, it is paramount that JoyRide drivers are sufficiently prepared to be driving JoyRide users. As a result, drivers will be tested, to ensure they are not only legal to drive, but are trained to provide comfortable and safe rides.
+
+4.3.   Impacts during development
+This paragraph shall describe anticipated impacts on the user, acquirer, developer, and sup¬port agencies during the development effort.  These impacts may include meetings or discussions regarding the new or modified system; development or modification of databases; training; parallel operation of the new and existing systems; impacts during testing of the new system; other activities needed to aid or monitor development; and any impacts to documentation.
+
+During development, steps will need to be taken to ensure compatibility with other technologies; specifically, smartphones, bluetooth radios, and databases (drivers, legal databases, profiles, etc), as examples. Testing will be done during development to ensure the system is compatible with these other adjacent systems. 
+Additionally, JoyRide personnel will attend regular meetings with technology partners to understand where the technology is growing. This will allow the JoyRide developers to prepare for changes in the technology world, to ensure future flexibility. Also, the JoyRide developers will consult industry subject matter experts on database development, to ensure the JoyRide database is compatible with smartphones, etc.
+5.             	Notes
+This section shall contain any general information that aids in understanding this document (e.g., background information, glossary, rationale).  Ensure that all definitions of terms used in all products are captured in the Integrated Dictionary (AV-2).
+6.             	Appendices
+Appendices may be used to provide information published separately for convenience in document maintenance (e.g., charts, classified data).  As applicable, each appendix shall be referenced in the main body of the document where the data would normally have been provided.  Appendices may be bound as separate documents for ease in handling.  Appendices shall be lettered alphabetically (A, B, etc.).
+
